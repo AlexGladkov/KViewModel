@@ -1,11 +1,14 @@
 plugins {
     id("multiplatform-compose-setup")
     id("android-setup")
-    id("com.vanniktech.maven.publish")
+    id("maven-publish")
 }
 
+group = libs.versions.packageName.get()
+version = libs.versions.packageVersion.get()
+
 android {
-    namespace = "com.adeo.kviewmodel.compose"
+    namespace = "io.github.alexgladkov.kviewmodel.compose"
 }
 
 kotlin {
@@ -23,3 +26,9 @@ kotlin {
         kotlinOptions.freeCompilerArgs += "-Xexplicit-api=strict"
     }
 }
+
+configureMavenPublication(
+    groupId = libs.versions.packageName.get(),
+    artifactId = "kviewmodel-compose",
+    name = "Compose part of KViewModel"
+)

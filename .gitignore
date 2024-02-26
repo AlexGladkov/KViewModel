@@ -20,3 +20,6 @@ local.properties
 *.xcbkptlist
 /gradle-plugin/generated
 kotlin-js-store
+
+keys/my-key.asc
+*.asc

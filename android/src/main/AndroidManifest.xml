@@ -15,7 +15,7 @@
         tools:replace="android:theme">
 
         <activity
-            android:name="com.adeo.kviewmodel.example.MainActivity"
+            android:name="io.github.alexgladkov.kviewmodel.example.MainActivity"
             android:windowSoftInputMode="adjustPan"
             android:exported="true">
             <intent-filter>

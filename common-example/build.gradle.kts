@@ -5,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.adeo.kviewmodel.example.common"
+    namespace = "io.github.alexgladkov.kviewmodel.example.common"
 }
 
 kotlin {

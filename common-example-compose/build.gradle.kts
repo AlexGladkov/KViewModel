@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "com.adeo.kviewmodel.example.compose"
+    namespace = "io.github.alexgladkov.kviewmodel.example.compose"
 }
 
 kotlin {
     cocoapods {
         summary = "KViewModel Apple-Compose Example"
-        homepage = "https://github.com/adeo/kviewmodel--mpp"
+        homepage = "https://github.com/AlexGladkov/KViewModel"
         ios.deploymentTarget = "14.0"
         version = "1.0"
 

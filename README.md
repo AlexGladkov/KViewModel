@@ -9,15 +9,15 @@ Works with Kotlin Multiplatform and Compose Multiplatform!
 Kotlin DSL
 
 ```kotlin
-implementation("com.adeo:kviewmodel:0.14") // Core functions
-implementation("com.adeo:kviewmodel-compose:0.14") // Compose extensions
-implementation("com.adeo:kviewmodel-odyssey:0.14") // Odyssey extensions
+implementation("io.github.alexgladkov:kviewmodel:0.17") // Core functions
+implementation("io.github.alexgladkov:kviewmodel-compose:0.17") // Compose extensions
+implementation("io.github.alexgladkov:kviewmodel-odyssey:0.17") // Odyssey extensions
 ```
 
 ```groovy
-implementation "com.adeo:kviewmodel:0.14" // Core functions
-implementation "com.adeo:kviewmodel-compose:0.14" // Compose extensions
-implementation "com.adeo:kviewmodel-odyssey:0.14" // Odyssey extensions
+implementation "io.github.alexgladkov:kviewmodel:0.17" // Core functions
+implementation "io.github.alexgladkov:kviewmodel-compose:0.17" // Compose extensions
+implementation "io.github.alexgladkov:kviewmodel-odyssey:0.17" // Odyssey extensions
 ```
 
 ### How to use

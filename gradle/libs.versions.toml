@@ -9,6 +9,9 @@ odyssey = "1.3.50"
 android-appcompat = "1.5.1"
 android-activity-compose = "1.6.1"
 
+packageName = "io.github.alexgladkov"
+packageVersion = "0.17"
+
 [libraries]
 plugin-android = { module = "com.android.tools.build:gradle", version.ref = "plugin-android" }
 plugin-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }

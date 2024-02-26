@@ -9,7 +9,7 @@ dependencies {
 
 compose.desktop {
     application {
-        mainClass = "com.adeo.kviewmodel.demo.MainKt"
+        mainClass = "io.github.alexgladkov.kviewmodel.demo.MainKt"
 
         nativeDistributions {
             targetFormats(

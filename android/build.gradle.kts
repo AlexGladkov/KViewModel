@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "com.adeo.kviewmodel.example"
+    namespace = "io.github.alexgladkov.kviewmodel.example"
     compileSdk = 33
 
     defaultConfig {
